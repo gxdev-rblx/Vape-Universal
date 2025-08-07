@@ -1,0 +1,27 @@
+
+local gui = Instance.new("ScreenGui")
+gui.Name = "patrickGui"
+gui.Parent = game.CoreGui
+
+local va = Instance.new("TextButton")
+va.Size = UDim2.new(0.2, 0, 0.1, 0)
+va.Position = UDim2.new(0.01, 0, 0.01, 0)
+va.BackgroundColor3 = Color3.new(0, 0, 0)
+va.BorderColor3 = Color3.new(0, 0, 0)
+va.BorderSizePixel = 0
+va.Text = "Vape Universal"
+va.BackgroundTransparency = 1
+va.TextColor3 = Color3.new(0, 255, 0)
+va.Font = Enum.Font.Legacy
+va.Parent = gui
+va.TextSize = 20
+va.MouseButton1Click:Connect(function()
+	keypress(Enum.KeyCode.R)
+end)
+
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Vape Universal injected";
+ Text = "Current Version V1.0.1 beta";
+ Duration = 5;
+})
+
