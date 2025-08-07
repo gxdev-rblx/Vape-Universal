@@ -116,7 +116,7 @@ tab1:Button("TP walk gui", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/gxdev-rblx/Gx-lololoooollll/refs/heads/main/main.lua.txt",true))()
 end)
 
-tab1:Label("Set the gravity to 13-30 and the walkspeed to 30 to make it work")
+tab1:Label("Set the gravity to 13 and the walkspeed to 30 to make it work")
 
 
 tab1:Button("Motion fly", function()
@@ -198,13 +198,13 @@ tab4:Label("The ui library is not made by me I just modified")
 tab4:Label("Ui library original owner dawid-scrpts")
 
 
-tab2:Label("Ui")
+tab2:Label("-Ui")
 
 tab2:Colorpicker("Change UI Color",Color3.fromRGB(44, 120, 224), function(t)
 lib:ChangePresetColor(Color3.fromRGB(t.R * 255, t.G * 255, t.B * 255))
 end)
 
-tab2:Label("Anti Cheat Bypass")
+tab2:Label("-Anti Cheat Bypass")
 
 tab2:Button("Tower of hell", function()
 for a,b in pairs(getgc()) do 
@@ -228,7 +228,7 @@ getgenv().AntiKick = true -- Optional
 getgenv().Notifications = false -- Optional
 end)
 
-tab2:Label("Trolls")
+tab2:Label("-Trolls")
 
 tab2:Button("fling", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/LgZwZ7ZB",true))()
