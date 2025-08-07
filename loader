@@ -1,6 +1,6 @@
 
 local gui = Instance.new("ScreenGui")
-gui.Name = "patrickGui"
+gui.Name = "Vape Universal loader"
 gui.Parent = game.CoreGui
 
 local va = Instance.new("TextButton")
@@ -25,3 +25,4 @@ game.StarterGui:SetCore("SendNotification",  {
  Duration = 5;
 })
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gxdev-rblx/Vape-Universal/refs/heads/main/vape"))()
